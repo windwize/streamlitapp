@@ -6,7 +6,7 @@ def main():
     st.title('音声読み上げアプリ')
     selected = st.radio('Audio type',
                         ['Microsoft','Google'])
-    text = st.text_input(label='Message',value='Hello,world!')
+    text = st.text_input(label='Message',value='Hello,tokyo!')
     if st.button('Speak'):
         audio = 'speech.mp3'
         if selected == 'Google':
