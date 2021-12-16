@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import json
 
-st.set_page_config(layout="wide", page_title="中英单词互翻神器")
+st.set_page_config(layout="wide", page_title="Translate app")
 
 st.header("Translate app")
 
